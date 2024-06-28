@@ -1,0 +1,88 @@
+/* Style for the main app container */
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #1d7188;
+    padding: 20px;
+  }
+  
+  /* Style for the form */
+  form {
+    margin: 20px;
+  }
+  
+  /* Style for the input fields */
+  input.input-field {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid green; /* Green border */
+    border-radius: 5px;
+  }
+  
+  /* Style for the buttons */
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  button.edit-btn {
+    background-color: #FFC107; /* Amber */
+    color: white;
+    
+  }
+  
+  button.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+    
+   
+  }
+  
+  /* Style for the todo list container */
+  .todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Style for each todo item */
+  .todo-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Style for the filter section */
+  .filter {
+    margin: 20px;
+    text-align: right;
+  }
+  
+  /* Style for the status dropdown */
+  select.status-dropdown {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7dfe5; /* Dropdown background color */
+  }
+  
+  /* Style for the "My Todos" title */
+  .my-todos {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
